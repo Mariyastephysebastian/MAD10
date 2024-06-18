@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+    line-height: 1.0;
+}
+
+.banner{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.product{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.card{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50);
+        text-align: center;
+       color: #fff;
+}
+.content{
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+    background-color: #3d3d3d;
+    height: 50vh;
+}
+
+.content h1{
+    font-size: 40px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.content h2{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif
+}
+.section{
+    width:100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 50%;
+    display: block;
+    padding-top: 50px;
+}
+.image-section img{
+    width: 10%;
+    height: 10vh;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .contenth2{
+    margin-top: 21px;
+    color:#5d5d5d;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content-section .content .button a{
+    background-color: #3d3d3d;
+    padding:5px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.content-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+
+}
+.contact-in{
+    padding: 0px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: 30px;
+    
+}
+.contact-wrap{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#fff;
+    align-items: center;
+    padding: 20px;
+}
+.contact-in h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #c73939;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #cb5454;
+    
+}
+.contact-in h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #070505;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-in h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #080505;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-in h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #080606;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-in h2 i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #827373;
+    color:#be2828;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contact-in p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.fa-phone{
+    color: green;
+
+}
+fieldset{
+    width: 300%;
+    padding: 10px;
+    margin: 300px;
+    box-shadow: 0 0 15px #cb1616;
+    border: none;
+    border-radius: 40px;
+    background-color: #606f7d;
+
+}
+input{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0 0 9px #333;
+}
+.con{
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+}
+.socialIcons{
+    display: flex;
+    
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50px;
+}
+.icon{
+    font-size: 30px;
+    color: skyblue;
+    background: #fff;
+}
+icon .logo-youtube{
+    font-size: 30px;
+    color: red;
+}
+icon ins{
+    font-size: 30px;
+    color: skyblue;
+    background: #fff;
+}
+.btn .color2{
+    padding: 6px 15px;
+    margin: 30px;
+    background-color: #ffff;
+    justify-content: center;
+    
+}
+.column{
+    height:40vh;
+    width: 70%;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: center;
+}
